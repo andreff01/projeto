@@ -2,7 +2,7 @@ import asyncpg
 import asyncio
 
 user="postgres"
-password="1312"
+password="sql"
 database="agendateste"
 host="localhost"
 
