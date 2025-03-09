@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - AgendaPro</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">AgendaPro</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Agendamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-content bg-light py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card shadow">
+              <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Contato</h4>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label">Nome</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nome"
+                      placeholder="Seu nome"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Seu email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Mensagem</label>
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      id="mensagem"
+                      placeholder="Sua mensagem"
+                    ></textarea>
+                  </div>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="reset" class="btn btn-danger">
+                      Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>AgendaPro</h5>
+            <p>Sistema de gerenciamento de clientes e serviços</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>© 2025 AgendaPro. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
