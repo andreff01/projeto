@@ -11,6 +11,6 @@ Este sistema de agendamento simples permite o cadastro de clientes e serviços, 
 
 ## Como usar
 
-1. Clone ou repositório
+1. Clone o repositório
 2. Instale as dependências
 3. Execute o sistema
